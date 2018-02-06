@@ -1,0 +1,34 @@
+C:\Users\dimkin_7\Google Диск\4 curs lab\Project\SquarFigure\SquarFigure\bin\Debug\SquarFigure.exe.config
+C:\Users\dimkin_7\Google Диск\4 curs lab\Project\SquarFigure\SquarFigure\bin\Debug\SquarFigure.exe
+C:\Users\dimkin_7\Google Диск\4 curs lab\Project\SquarFigure\SquarFigure\bin\Debug\SquarFigure.pdb
+C:\Users\dimkin_7\Google Диск\4 curs lab\Project\SquarFigure\SquarFigure\obj\Debug\SquarFigure.csprojResolveAssemblyReference.cache
+C:\Users\dimkin_7\Google Диск\4 curs lab\Project\SquarFigure\SquarFigure\obj\Debug\SquarFigure.Form1.resources
+C:\Users\dimkin_7\Google Диск\4 curs lab\Project\SquarFigure\SquarFigure\obj\Debug\SquarFigure.Properties.Resources.resources
+C:\Users\dimkin_7\Google Диск\4 curs lab\Project\SquarFigure\SquarFigure\obj\Debug\SquarFigure.csproj.GenerateResource.Cache
+C:\Users\dimkin_7\Google Диск\4 curs lab\Project\SquarFigure\SquarFigure\obj\Debug\SquarFigure.exe
+C:\Users\dimkin_7\Google Диск\4 curs lab\Project\SquarFigure\SquarFigure\obj\Debug\SquarFigure.pdb
+C:\Users\dimkin_7\Google Диск\4 curs lab\Project\SquarFigure\SquarFigure\bin\Debug\EntityFramework.dll
+C:\Users\dimkin_7\Google Диск\4 curs lab\Project\SquarFigure\SquarFigure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dimkin_7\Google Диск\4 curs lab\Project\SquarFigure\SquarFigure\bin\Debug\EntityFramework.xml
+C:\Users\dimkin_7\Google Диск\4 curs lab\Project\SquarFigure\SquarFigure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dimkin_7\Google Диск\4 curs lab\Project\SquarFigure\SquarFigure\obj\Debug\SquarFigure.Migrations.InitialCreate.resources
+C:\Users\dimkin_7\Google Диск\4 curs lab\Project\SquarFigure\SquarFigure\obj\Debug\SquarFigure.Migrations.AddCompanyMigration.resources
+C:\Users\dimkin_7\Google Диск\4 curs lab\Project\SquarFigure\SquarFigure\obj\Debug\SquarFigure.Migrations.AddCompanyMigration1.resources
+C:\Users\dimkin_7\Google Диск\4 curs lab\Project\SquarFigure\SquarFigure\obj\Debug\SquarFigure.Migrations.AddCompany.resources
+C:\Users\dimkin_7\Source\Repos\TestTask\SquarFigure\SquarFigure\bin\Debug\SquarFigure.exe.config
+C:\Users\dimkin_7\Source\Repos\TestTask\SquarFigure\SquarFigure\obj\Debug\SquarFigure.exe
+C:\Users\dimkin_7\Source\Repos\TestTask\SquarFigure\SquarFigure\obj\Debug\SquarFigure.pdb
+C:\Users\dimkin_7\Source\Repos\TestTask\SquarFigure\SquarFigure\bin\Debug\SquarFigure.exe
+C:\Users\dimkin_7\Source\Repos\TestTask\SquarFigure\SquarFigure\bin\Debug\SquarFigure.pdb
+C:\Users\dimkin_7\Source\Repos\TestTask\SquarFigure\SquarFigure\bin\Debug\EntityFramework.dll
+C:\Users\dimkin_7\Source\Repos\TestTask\SquarFigure\SquarFigure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dimkin_7\Source\Repos\TestTask\SquarFigure\SquarFigure\bin\Debug\EntityFramework.xml
+C:\Users\dimkin_7\Source\Repos\TestTask\SquarFigure\SquarFigure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dimkin_7\Source\Repos\TestTask\SquarFigure\SquarFigure\obj\Debug\SquarFigure.csprojResolveAssemblyReference.cache
+C:\Users\dimkin_7\Source\Repos\TestTask\SquarFigure\SquarFigure\obj\Debug\SquarFigure.Form1.resources
+C:\Users\dimkin_7\Source\Repos\TestTask\SquarFigure\SquarFigure\obj\Debug\SquarFigure.Migrations.InitialCreate.resources
+C:\Users\dimkin_7\Source\Repos\TestTask\SquarFigure\SquarFigure\obj\Debug\SquarFigure.Migrations.AddCompanyMigration.resources
+C:\Users\dimkin_7\Source\Repos\TestTask\SquarFigure\SquarFigure\obj\Debug\SquarFigure.Migrations.AddCompanyMigration1.resources
+C:\Users\dimkin_7\Source\Repos\TestTask\SquarFigure\SquarFigure\obj\Debug\SquarFigure.Migrations.AddCompany.resources
+C:\Users\dimkin_7\Source\Repos\TestTask\SquarFigure\SquarFigure\obj\Debug\SquarFigure.Properties.Resources.resources
+C:\Users\dimkin_7\Source\Repos\TestTask\SquarFigure\SquarFigure\obj\Debug\SquarFigure.csproj.GenerateResource.Cache
