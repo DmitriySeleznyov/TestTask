@@ -14,5 +14,6 @@ namespace SquarFigure
         { }
         
         public DbSet<Statistic> Statistics { get; set; }
+        //public DbSet<ModelStep> ModelSteps { get; set; }
     }
 }

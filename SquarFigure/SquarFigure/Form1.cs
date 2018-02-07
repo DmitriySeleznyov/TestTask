@@ -23,9 +23,15 @@ namespace SquarFigure
             db.Statistics.Load();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private async void button1_Click(object sender, EventArgs e)
         {
-            textBoxResult.Text = Calc.Calculate(double.Parse(textBoxAX1.Text), double.Parse(textBoxBX2.Text), double.Parse(textBoxDelta.Text), comboBoxFunc.Text, double.Parse(textBoxByPart.Text));
+            if ((double.Parse(textBoxAX1.Text) < double.Parse(textBoxBX2.Text))&&(double.Parse(textBoxDelta.Text)<1 && double.Parse(textBoxDelta.Text) > 0))
+            {
+                textBoxResult.Text = await Calc.Calculate(double.Parse(textBoxAX1.Text), double.Parse(textBoxBX2.Text), double.Parse(textBoxDelta.Text), comboBoxFunc.Text, double.Parse(textBoxByPart.Text));
+            }
+            else
+                MessageBox.Show("Некоректно введены данные.");
+            
         }
     }
 }

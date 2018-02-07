@@ -73,6 +73,7 @@
             // 
             this.textBoxResult.Location = new System.Drawing.Point(266, 130);
             this.textBoxResult.Name = "textBoxResult";
+            this.textBoxResult.ReadOnly = true;
             this.textBoxResult.Size = new System.Drawing.Size(100, 20);
             this.textBoxResult.TabIndex = 3;
             // 
@@ -178,7 +179,7 @@
             this.Controls.Add(this.textBoxAX1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Task";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -9,33 +9,65 @@ namespace SquarFigure
 {
     class DataBase
     {
-        private StatisticContext db;
-
         public void AddDB(double delta, double x1, double x2,string func, double result)
         {
-            db = new StatisticContext();
-            db.Statistics.Load();
+            try
+            {
+                using (var db2 = new StatisticContext())
+                {
+                     db2.Statistics.LoadAsync();
 
-            Statistic stat = new Statistic {delta=delta, x1 = x1, x2 = x2, func = func, result = result };
-            
-            db.Statistics.Add(stat);
-            db.SaveChanges();
+                    Statistic stat = new Statistic { delta = delta, x1 = x1, x2 = x2, func = func, result = result };
+
+                    db2.Statistics.Add(stat);
+                     db2.SaveChangesAsync();
+                }
+
+            }
+            catch(Exception ex)
+            {
+
+            }
         }
 
-        public bool CheckData(double delta, double x1, double x2, string func)
+        public async Task<bool> CheckData(double delta, double x1, double x2, string func)
         {
-                
-            db = new StatisticContext();
-            db.Statistics.Load();
-            var check = db.Statistics.FirstOrDefault(x => (x.delta == delta) & (x.x1 == x1) & (x.x2 == x2) & (x.func == func));
-            if (check == null) return false;
-            else return true;
+            try
+            {
+                using (var db2 = new StatisticContext())
+                {
+                    await db2.Statistics.LoadAsync();
+                    var list = await db2.Statistics.ToListAsync();
+                    try
+                    {
+                        return list.Any(x => x.delta == delta && x.x1 == x1 && x.x2 == x2 && x.func == func);
+                    }
+                    catch (Exception)
+                    {
+                        return false;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
         }
 
-        public double RemoveData(double delta, double x1, double x2, string func)
+        public double ReturnData(double delta, double x1, double x2, string func)
         {
-            var check = db.Statistics.First(x => (x.delta == delta) & (x.x1 == x1) & (x.x2 == x2) & (x.func == func));
-            return check.result;
+            try
+            {
+                using (var db2 = new StatisticContext())
+                {
+                    var check = db2.Statistics.FirstOrDefault(x => (x.delta == delta) && (x.x1 == x1) && (x.x2 == x2) && (x.func == func));
+                    return check.result;
+                }
+            }
+            catch (Exception ex)
+            {
+                return 0;
+            }
         }
     }
 }
